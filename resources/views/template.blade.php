@@ -8,6 +8,9 @@
 </head>
 <body>
 {{--  Navigation  --}}
+@include('navigation')
+<main class="container mt-3">
+
 <main class="container">
     @yield('main', 'Page under construction ...')
 </main>
