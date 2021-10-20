@@ -1,3 +1,5 @@
+@extends('template')
+@section('main')
 <ul>
     <?php
     foreach ($records as $record){
@@ -6,3 +8,4 @@
     }
     ?>
 </ul>
+@endsection

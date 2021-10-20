@@ -29,3 +29,10 @@ Route::view('/', 'home');
 Route::view('contact-us', 'contact');
 Route::view("home", "home");
 
+// Demo - Staat niet in de cursus (laat de users zien
+// Route::prefix('api', group -> function () {
+//    Route::get( 'users', function (){
+//        return User::get;
+//    });
+//});
+
